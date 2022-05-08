@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-color: #3F5FC5;
+    opacity: 100%;
+}
+
+.containerPokemon {
+    display:flex;
+    flex-wrap :wrap;
+    justify-content: space-around;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    background-color: aliceblue;
+    border-radius: 10%;
+    min-width: 200px;
+    margin: 0.5%;
+    width: 220px;
+    height: 350px;
+    margin-bottom: 1%;
+    justify-content:  space-between;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+.carta:hover{ 
+    -webkit-transform: scale(1.2);     
+    -moz-transform: scale(1.2);     
+    -o-transform: scale(1.2);     
+    -ms-transform: scale(1.2);     
+    transform: scale(1.2);      
+    transition: all 900ms;     
+    z-index: 99;    
+    transition: all 900ms;
+}
+
+img {
+    width: 75%;
+    margin-bottom: 40px;
+
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px red;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.logoPokemon{
+    margin: auto;
+    display: block;
+    max-width: 50%;
+    text-align: center;
+    padding: 50px;
+}
